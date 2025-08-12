@@ -1,3 +1,16 @@
 header{
     background-color: blueviolet;
 }
+
+#produtos{
+    background-color: gray;
+    height: 700px;
+}
+#parceiros{
+    background-color: aqua;
+    height: 700px;
+}
+#historia{
+    background-color: blue;
+    height: 700px;
+}
