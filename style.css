@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+}
+
+
 header{
     background-color: blueviolet;
 }
@@ -5,6 +15,7 @@ header{
 #produtos{
     background-color: gray;
     height: 700px;
+    padding-top: 30px;
 }
 #parceiros{
     background-color: aqua;
@@ -17,4 +28,46 @@ header{
 
 .logotipo{
     height: 250px;
+}
+
+.menu{
+    background-color: yellow;
+    padding: 15px;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    transition: 0.9s;
+    padding: 5px;
+}
+
+.menu a:hover{
+    color: yellow;
+    text-decoration: underline;
+    background-color: black;
+    border-radius: 3px;
+}
+
+.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+.texto_1{
+    background-color: aquamarine;
+    margin:0 50px 0 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.texto_1:hover{
+    background-color: chartreuse;
+    transition: 0.4s;
+}
+.texto_1 p{
+    /* border: solid red 2px; */
+    text-align: justify;
 }
